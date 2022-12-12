@@ -1,0 +1,67 @@
+/*
+Color Palette:
+-----------------------
+--pewter-blue: #8aa2a9ff;
+--melon: #E3B5A4;
+--chestnut: #98473eff;
+--charcoal: #37505cff;
+--rich-black: #113537ff;
+--linen: #F5E9E2;
+*/
+
+/* Global styles
+------------------------*/
+body{
+  color: #113537ff;
+}
+img{
+  width: 300px;
+}
+/* Profile
+------------------------*/
+header{
+  background: #37505cff;
+  color: #F5E9E2;
+}
+a{
+  color: #E3B5A4;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* Projects
+------------------------*/
+.projects{
+  background: #8aa2a9ff;
+}
+.projects a{
+  color: #98473eff;
+}
+.projects .btn{
+  color: #E3B5A4;
+  background: #37505cff;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+.projects .btn:hover{
+  background: rgba(55, 80, 92, 80%);
+}
+
+/* Work Experience
+------------------------*/
+
+.work_experience{
+  background: #98473eff;
+  color: #F5E9E2;
+}
+/* Education
+------------------------*/
+
+/* Contact Info
+------------------------*/
+footer{
+  background: #113537ff;
+  color: #F5E9E2;
+}
