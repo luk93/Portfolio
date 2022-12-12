@@ -7,12 +7,15 @@ Color Palette:
 --charcoal: #37505cff;
 --rich-black: #113537ff;
 --linen: #F5E9E2;
+--cadet: #546A76;
 */
 
 /* Global styles
 ------------------------*/
 body{
   color: #113537ff;
+  margin: 0;
+  font-family: 'Segoe UI Light';
 }
 img{
   width: 300px;
@@ -29,6 +32,17 @@ a{
 a:hover{
   text-decoration: none;
 }
+h2{
+  margin: 0;
+}
+h1,h2{
+  font-family: 'Segoe UI';
+}
+.content-wrap{
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
 
 /* Projects
 ------------------------*/
@@ -44,6 +58,7 @@ a:hover{
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
+  display: inline-block;
 }
 .projects .btn:hover{
   background: rgba(55, 80, 92, 80%);
@@ -53,7 +68,7 @@ a:hover{
 ------------------------*/
 
 .work_experience{
-  background: #98473eff;
+  background: #546A76;
   color: #F5E9E2;
 }
 /* Education
