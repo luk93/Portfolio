@@ -12,10 +12,18 @@ Color Palette:
 
 /* Global styles
 ------------------------*/
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
 body{
   color: #113537ff;
   margin: 0;
   font-family: 'Segoe UI Light';
+  font-size: 20px;
+  line-height: 1.5;
 }
 img{
   width: 300px;
@@ -32,11 +40,17 @@ a{
 a:hover{
   text-decoration: none;
 }
+h1{
+  font-size: 70px;
+  line-height: 1.5;
+  border-bottom: 1px solid #E3B5A4;
+}
 h2{
+  font-size: 40px;
   margin: 0;
 }
 h1,h2{
-  font-family: 'Segoe UI';
+  font-weight: 900;
 }
 .content-wrap{
   width: 800px;
@@ -62,6 +76,18 @@ h1,h2{
 }
 .projects .btn:hover{
   background: rgba(55, 80, 92, 80%);
+}
+.project-item{
+  overflow: hidden;
+  border-bottom: 1px solid #113537ff;
+  padding: 25px 0;
+}
+.project-item img{
+  float: left;
+  margin-right: 20px;
+}
+.project-item h3{
+  margin-top: 0;
 }
 
 /* Work Experience
