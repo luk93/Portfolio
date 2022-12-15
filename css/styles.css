@@ -2,11 +2,11 @@
 Color Palette:
 -----------------------
 --pewter-blue: #8aa2a9ff;
---melon: #E3B5A4;
+  --melon: #E3B5A4;
 --chestnut: #98473eff;
 --charcoal: #37505cff;
 --rich-black: #113537ff;
---linen: #F5E9E2;
+  --linen: #F5E9E2;
 --cadet: #546A76;
 */
 
@@ -33,6 +33,7 @@ img{
 header{
   background: #37505cff;
   color: #F5E9E2;
+  text-align: center;
 }
 a{
   color: #E3B5A4;
@@ -105,4 +106,15 @@ h1,h2{
 footer{
   background: #113537ff;
   color: #F5E9E2;
+  text-align: center;
+}
+.contact-list{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a{
+  padding: 15px;
+  display: inline-block;
 }
