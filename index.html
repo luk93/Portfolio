@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div id="imgModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
@@ -28,28 +33,29 @@
 
         <!-- Project 1 -->
         <section class="project-item">
-          <img src="images/tiaOpenessApp.png" alt="Tia Openess App screenshot">
+          <img src="images/tiaOpenessApp.png" alt="Tia Openess App screenshot" id="project_img1"/>
+          <!-- script to set display property -->
           <h3>Tia Openess App</h3>
           <p>An application that helps PLC Software developer with some tasks. It is using Openess Library to connect with TIA Portal process and operate on it. </p>
           <a class="btn" href="https://github.com/luk93/Openess_Test_App_by_Lukas" target="_blank">View project</a>
         </section>
         <!-- Project 2 -->
         <section class="project-item">
-          <img src="images/ignitionHelper.png" alt="Ignition Helper App screenshot">
+          <img src="images/ignitionHelper.png" alt="Ignition Helper App screenshot" id="project_img2">
           <h3>Ignition Helper</h3>
           <p>An application that helps Ignition Visualization Designer with some of the tasks.</p>
           <a class="btn" href="https://github.com/luk93/IgnitionHelper" target="_blank">View project</a>
         </section>
         <!-- Project 3 -->
         <section class="project-item">
-          <img src="images/textfileExporter.png" alt="Textfile Exporter App screenshot">
+          <img src="images/textfileExporter.png" alt="Textfile Exporter App screenshot" id="project_img3">
           <h3>TextFile Exporter</h3>
           <p>An application that allows to insert or update data from excel (textfile) to DataBase. Database first.</p>
           <a class="btn" href="https://github.com/luk93/TextFileExport" target="_blank">View project</a>
         </section>
       </div>
       </section>
-
+      <!-- *****************  MODAL  ***************** -->
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
       <section class="work-experience">
         <div class="content-wrap item-details divider">
@@ -126,11 +132,13 @@
         <div class="content-wrap">
           <h2>Contact Info</h2>
           <ul class="contact-list">
-            <li><a href="mailto:ligajlukasz93@gmail.com">ligajlukasz93@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/%C5%82ukasz-ligaj-257b74146/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:ligajlukasz93@gmail.com"><img src="images/gmail_icon.png" alt="ligajlukasz93@gmail.com" style="width:50px;height:50px;"></a></li>
+            <li><a href="https://www.linkedin.com/in/%C5%82ukasz-ligaj-257b74146/" target="_blank"><img src="images/linkedin_icon.png" alt="LinkedIn" style="width:50px;height:50px;"></a></li>
           </ul>
         </div>
       </footer>
     </main>
+    <!-- *****************  SCRIPTS  ***************** -->
+    <script src="js/myScript.js"></script>
   </body>
 </html>
