@@ -5,6 +5,7 @@ var modal = document.getElementById("imgModal");
 var img1 = document.getElementById("project_img1");
 var img2 = document.getElementById("project_img2");
 var img3 = document.getElementById("project_img3");
+var img4 = document.getElementById("project_img4");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img1.onclick = function(){
@@ -18,6 +19,11 @@ img2.onclick = function(){
   captionText.innerHTML = this.alt;
 }
 img3.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+img4.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
