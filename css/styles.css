@@ -18,10 +18,11 @@ html{
 *, *::before, *::after{
   box-sizing: inherit;
 }
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 body{
   color: #113537;
   margin: 0;
-  font-family: 'Segoe UI Light';
+  font-family: 'Abel', sans-serif;
   font-size: 25px;
   line-height: 1.5;
 }
